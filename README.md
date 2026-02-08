@@ -1,36 +1,36 @@
-# Simple Daily Todo Application
+# 심플 데일리 투두 애플리케이션
 
-A simple yet feature-rich daily todo application built with HTML, CSS, and JavaScript. This application allows you to manage your daily tasks with categories, priorities, due dates, and progress tracking.
+HTML, CSS, JavaScript로 구축된 간단하지만 기능이 풍부한 일일 투두 애플리케이션입니다. 이 애플리케이션을 사용하면 카테고리, 우선순위, 마감일 및 진행 상황 추적 기능으로 일일 작업을 관리할 수 있습니다.
 
-## Features
+## 기능
 
-- Add, edit, and delete todo items
-- Categorize todos (업무, 개인, 공부)
-- Mark todos as complete
-- Search functionality to find specific tasks
-- Progress tracking with visual progress bar
-- Data persistence using localStorage
-- Data export/import capabilities
-- Filter options (all, pending, completed)
-- Responsive design for mobile devices
-- Priority levels (low, medium, high)
-- Due date management
+- 할 일 항목 추가, 편집 및 삭제
+- 할 일 분류 (업무, 개인, 공부)
+- 할 일 완료 상태 표시
+- 특정 작업을 찾기 위한 검색 기능
+- 시각적 진행률 바를 통한 진행 상황 추적
+- localStorage를 통한 데이터 지속성
+- 데이터 내보내기/가져오기 기능
+- 필터 옵션 (전체, 진행중, 완료)
+- 모바일 장치를 위한 반응형 디자인
+- 우선순위 수준 (낮음, 중간, 높음)
+- 마감일 관리
 
-## How to Run
+## 실행 방법
 
-This is a client-side web application that works directly in your browser:
+이 애플리케이션은 브라우저에서 직접 작동하는 클라이언트 측 웹 애플리케이션입니다:
 
-1. **Direct method:**
-   - Double-click on `simple-daily-todo/index.html` in your file explorer
-   - Or open it directly in your browser using the file path
+1. **직접 실행 방법:**
+   - 파일 탐색기에서 `simple-daily-todo/index.html`을 더블 클릭
+   - 또는 파일 경로를 사용하여 브라우저에서 직접 열기
 
-2. **Using a local server (recommended for development):**
-   - Open terminal
-   - Navigate to your project directory: `cd /path/to/your/project`
-   - Run: `python3 -m http.server 8000` (for Python 3) or `python -m SimpleHTTPServer 8000` (for Python 2)
-   - Open your browser and go to `http://localhost:8000/simple-daily-todo/index.html`
+2. **로컬 서버 사용 (개발용 권장):**
+   - 터미널 열기
+   - 프로젝트 디렉토리로 이동: `cd /path/to/your/project`
+   - 실행: `python3 -m http.server 8000` (Python 3용) 또는 `python -m SimpleHTTPServer 8000` (Python 2용)
+   - 브라우저에서 `http://localhost:8000/simple-daily-todo/index.html`로 이동
 
-## Project Structure
+## 프로젝트 구조
 
 ```
 .
@@ -41,25 +41,25 @@ This is a client-side web application that works directly in your browser:
 │   └── script.js
 ```
 
-## Technologies Used
+## 사용된 기술
 
-- **HTML5** - For structuring the application
-- **CSS3** - For styling and responsive design
-- **JavaScript** - For application logic and interactivity
-- **localStorage** - For data persistence
+- **HTML5** - 애플리케이션 구조화를 위해
+- **CSS3** - 스타일링 및 반응형 디자인을 위해
+- **JavaScript** - 애플리케이션 로직 및 상호작용을 위해
+- **localStorage** - 데이터 지속성을 위해
 
-## Browser Support
+## 브라우저 지원
 
-This application works in all modern browsers including:
+이 애플리케이션은 다음 최신 브라우저에서 작동합니다:
 - Chrome 50+
 - Firefox 45+
 - Safari 10+
 - Edge 14+
 
-## Development
+## 개발
 
-The application is built as a single-page application with all HTML, CSS, and JavaScript in one package. No build process or additional dependencies are required.
+이 애플리케이션은 모든 HTML, CSS, JavaScript가 하나의 패키지로 구성된 단일 페이지 애플리케이션으로 구축되었습니다. 빌드 프로세스나 추가 의존성은 필요하지 않습니다.
 
-## License
+## 라이선스
 
-This project is available as open source under the terms of the MIT License.
+이 프로젝트는 MIT 라이선스 조건에 따라 오픈 소스로 제공됩니다.
